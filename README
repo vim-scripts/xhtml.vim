@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=450
+
+This script creates shortcuts for most xhtml tags, and in gvim it adds a menu for the various tags.  Shortcuts are triggered by the semicolon.  For example ;li will create open and close "list item" tags and leave the cursor between them.  Similarly ;im creates an image tag and leaves the cursor in the first field.
+
+Ctrl-J is bound to a kind of "jump" and will generally place the cursor at the next place you would want to type (the next field or the place just before the next tag starts).
+
+There are bindings for the 3 modes; command mode, insert mode, and visual mode; as well as some special characters like ;cp (copyright symbol) and ;< (less than symbol).
